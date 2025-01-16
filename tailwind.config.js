@@ -34,6 +34,12 @@ module.exports = {
       animation: {
         slideDown: "slideDown 1s ease-in-out",
       },
+      maxWidth: {
+        "max-slider-width": "1440px",
+      },
+      minWidth: {
+        "mini-slider-width": "880px",
+      },
     },
   },
   plugins: [],
