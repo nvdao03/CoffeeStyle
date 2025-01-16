@@ -25,7 +25,7 @@
 
 /* Start Line Decor */
 .ct-headline-apply {
-  @apply my-24 flex items-center justify-center md-max:my-12;
+  @apply my-24 flex items-center justify-center;
 }
 
 .ct-headline-decor-line-apply {

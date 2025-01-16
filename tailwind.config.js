@@ -36,9 +36,18 @@ module.exports = {
           "0%": { transform: "translateY(-100%)" },
           "100%": { transform: "translateY(0)" },
         },
+        fakeIn: {
+          from: {
+            bottom: "-60px",
+          },
+          to: {
+            bottom: "16px",
+          },
+        },
       },
       animation: {
         slideDown: "slideDown 1s ease-in-out",
+        fakeIn: "fakeIn .5s ease-in-out",
       },
       maxWidth: {
         "max-slider-width": "1440px",
