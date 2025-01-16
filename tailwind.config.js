@@ -16,20 +16,20 @@ module.exports = {
         },
       },
       screens: {
-        sm: "640px",
-        "sm-max": { max: "640px" },
-
-        md: "768px",
-        "md-max": { max: "768px" },
-
-        lg: "1024px",
-        "lg-max": { max: "1024px" },
+        "2xl": "1536px",
+        "2xl": { max: "1536px" },
 
         xl: "1280px",
         "xl-max": { max: "1280px" },
 
-        "2xl": "1536px",
-        "2xl": { max: "1536px" },
+        lg: "1024px",
+        "lg-max": { max: "1024px" },
+
+        md: "768px",
+        "md-max": { max: "768px" },
+
+        sm: "640px",
+        "sm-max": { max: "640px" },
       },
       keyframes: {
         slideDown: {

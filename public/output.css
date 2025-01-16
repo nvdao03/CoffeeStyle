@@ -666,6 +666,10 @@ video {
   display: grid;
 }
 
+.h-\[380px\]{
+  height: 380px;
+}
+
 .h-\[530px\]{
   height: 530px;
 }
@@ -714,6 +718,10 @@ video {
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -778,16 +786,48 @@ video {
   --tw-bg-opacity: 0.3;
 }
 
-.bg-\[url\(\'\.\/images\/mugs-golden\.jpg\'\)\]{
-  background-image: url('./images/mugs-golden.jpg');
+.bg-\[url\(\'\.\/images\/banner\/slider\.jpg\'\)\]{
+  background-image: url('./images/banner/slider.jpg');
 }
 
-.bg-\[url\(\'\.\/images\/mugs-pink\.jpg\'\)\]{
-  background-image: url('./images/mugs-pink.jpg');
+.bg-\[url\(\'\.\/images\/mugs\/mugs-golden\.jpg\'\)\]{
+  background-image: url('./images/mugs/mugs-golden.jpg');
 }
 
-.bg-\[url\(\'\.\/images\/slider\.jpg\'\)\]{
-  background-image: url('./images/slider.jpg');
+.bg-\[url\(\'\.\/images\/mugs\/mugs-pink\.jpg\'\)\]{
+  background-image: url('./images/mugs/mugs-pink.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-black\.jpg\'\)\]{
+  background-image: url('./images/products/product-black.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-bw\.jpg\'\)\]{
+  background-image: url('./images/products/product-bw.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-ceramin\.jpg\'\)\]{
+  background-image: url('./images/products/product-ceramin.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-espreso\.jpg\'\)\]{
+  background-image: url('./images/products/product-espreso.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-no-handler\.jpg\'\)\]{
+  background-image: url('./images/products/product-no-handler.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-red\.jpg\'\)\]{
+  background-image: url('./images/products/product-red.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-summer\.jpg\'\)\]{
+  background-image: url('./images/products/product-summer.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/products\/product-winter\.jpg\'\)\]{
+  background-image: url('./images/products/product-winter.jpg');
 }
 
 .bg-cover{
@@ -804,6 +844,10 @@ video {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.p-8{
+  padding: 2rem;
 }
 
 .px-4{
@@ -839,6 +883,11 @@ video {
 .py-\[18px\]{
   padding-top: 18px;
   padding-bottom: 18px;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .text-center{
@@ -1210,23 +1259,6 @@ video {
   }
 }
 
-@media (max-width: 640px){
-  .sm-max\:mx-0{
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-}
-
-@media (max-width: 768px){
-  .md-max\:w-\[90\%\]{
-    width: 90%;
-  }
-
-  .md-max\:grid-cols-1{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 1024px){
   .lg-max\:ml-5{
     margin-left: 1.25rem;
@@ -1244,6 +1276,10 @@ video {
     width: 100%;
   }
 
+  .lg-max\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg-max\:px-0{
     padding-left: 0px;
     padding-right: 0px;
@@ -1259,5 +1295,22 @@ video {
 
   .lg-max\:text-center{
     text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  .md-max\:w-\[90\%\]{
+    width: 90%;
+  }
+
+  .md-max\:grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px){
+  .sm-max\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
