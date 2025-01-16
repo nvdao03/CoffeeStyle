@@ -33,9 +33,5 @@
 }
 
 .ct-headline-title-apply {
-  @apply mx-4 text-xs font-bold uppercase tracking-widest text-[#1D1F2E] opacity-60;
-}
-
-/* Start parallax */
-.ct-parallax-aplly {
+  @apply mx-4 text-sm font-bold uppercase tracking-widest text-[#1D1F2E] opacity-60;
 }

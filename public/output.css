@@ -658,6 +658,14 @@ video {
   margin-top: 1rem;
 }
 
+.mt-6{
+  margin-top: 1.5rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
 .block{
   display: block;
 }
@@ -682,6 +690,10 @@ video {
   height: 280px;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -694,8 +706,8 @@ video {
   height: 100%;
 }
 
-.h-\[340px\]{
-  height: 340px;
+.h-\[300px\]{
+  height: 300px;
 }
 
 .w-\[160px\]{
@@ -723,10 +735,6 @@ video {
 }
 
 .w-full{
-  width: 100%;
-}
-
-.w-\[100\%\]{
   width: 100%;
 }
 
@@ -790,6 +798,10 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-6{
+  gap: 1.5rem;
 }
 
 .gap-x-2{
@@ -900,12 +912,24 @@ video {
   background-image: url('./images/products/product-winter.jpg');
 }
 
-.bg-\[url\(\.\/images\/parallax-img\.jpg\)\]{
-  background-image: url(./images/parallax-img.jpg);
-}
-
 .bg-\[url\(\.\/images\/parallax\/parallax-img\.jpg\)\]{
   background-image: url(./images/parallax/parallax-img.jpg);
+}
+
+.bg-\[url\(\'\.\/images\/stories\/stori-health\.jpg\'\)\]{
+  background-image: url('./images/stories/stori-health.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/stories\/stori-awake\.jpg\'\)\]{
+  background-image: url('./images/stories/stori-awake.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/stories\/stori-research\.jpg\'\)\]{
+  background-image: url('./images/stories/stori-research.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/stories\/stori-reseach\.jpg\'\)\]{
+  background-image: url('./images/stories/stori-reseach.jpg');
 }
 
 .bg-cover{
@@ -1238,19 +1262,14 @@ video {
 .ct-headline-title-apply{
   margin-left: 1rem;
   margin-right: 1rem;
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   --tw-text-opacity: 1;
   color: rgb(29 31 46 / var(--tw-text-opacity, 1));
   opacity: 0.6;
-}
-
-/* Start parallax */
-
-.ct-parallax-aplly {
 }
 
 .hover\:bg-\[\#2f3247\]:hover{
@@ -1467,6 +1486,10 @@ video {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .md-max\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md-max\:flex-row{
     flex-direction: row;
   }
@@ -1477,6 +1500,10 @@ video {
 
   .md-max\:gap-3{
     gap: 0.75rem;
+  }
+
+  .md-max\:text-center{
+    text-align: center;
   }
 }
 
